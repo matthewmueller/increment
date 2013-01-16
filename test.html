@@ -1,0 +1,37 @@
+<html>
+<head>
+  <title>increment component</title>
+</head>
+<body>
+  <h1>increment component</h1>
+
+  <h2>Before:</h2>
+
+  <ul id = "before">
+    <li>apple</li>
+    <li>orange-10</li>
+    <li>watermelon_1</li>
+    <li>grape3</li>
+    <li>lolol-9999</li>
+  </ul>
+
+  <h2>After:</h2>
+
+  <ul id = "after"></ul>
+
+  <script src="../build/build.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    var increment = require('increment');
+
+    var arr = before.innerText.trim().split('\n')
+        out = [];
+
+    for (var i = 0, len = arr.length; i < len; i++) {
+      out.push('<li>' + increment(arr[i], '-') + '</li>');
+    }
+
+    after.innerHTML = out.join('');
+
+  </script>
+</body>
+</html>

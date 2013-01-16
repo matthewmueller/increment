@@ -1,0 +1,13 @@
+{
+  "name": "increment",
+  "repo": "matthewmueller/increment",
+  "description": "increment strings",
+  "version": "0.0.1",
+  "keywords": ["strings", "increment"],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}
