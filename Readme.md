@@ -13,6 +13,10 @@ increment('user-999', '-') // user-1000
 
 ## Installation
 
+    $ npm install increment
+
+or in the browser...
+
     $ component install matthewmueller/increment
 
 ## API
